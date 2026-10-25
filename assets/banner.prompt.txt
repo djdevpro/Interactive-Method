@@ -1,0 +1,10 @@
+Generator: built-in image_gen
+Selected variant: Editorial minimal
+
+Use case: ads-marketing.
+Asset type: finished raster banner for the GitHub repository Interactive-Method.
+Primary request: create one polished, distinctive repository banner for the project named exactly "Interactive Method". This developer plugin transforms a video into evidenced methods, visual diagrams, and practical interactive playbooks.
+Composition: ultra-wide horizontal banner, 3:1 aspect ratio, ideally 1536 by 512 pixels. A complete single banner, not a mockup, not a contact sheet. Strong readable title, generous safe margins, considered spacing, excellent legibility when displayed at GitHub README width. Show the relationship between a video frame, connected method steps, and a structured playbook through a restrained visual motif.
+Text (verbatim): "Interactive Method". These are the only words in the entire image. Exact spelling and capitalization; no subtitle, invented slogan, tiny UI labels, random text, or version number.
+Constraints: original visual identity, no GitHub/YouTube/other platform logos, no watermark, no people or robot mascots. Opaque finished background.
+Art direction: exceptionally clean editorial design, refined modern typography and lots of breathing room. Subtle flat vector-inspired abstract video and document motifs, precise visual alignment, premium calm open-source project identity. Light, airy finish and restrained contrast.

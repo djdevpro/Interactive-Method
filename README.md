@@ -1,3 +1,5 @@
+![Interactive Method](assets/banner.png)
+
 # Interactive Method
 
 Paste a video link into a chat with the plugin enabled. The agent produces a first overview without asking you to select a skill or an analysis depth.
