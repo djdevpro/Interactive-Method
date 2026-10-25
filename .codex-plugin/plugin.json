@@ -1,6 +1,6 @@
 {
   "name": "video-method-lab",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Automatically summarize a video with evidence, screenshots and a neutral method diagram, then offer a deeper agent-assisted HTML playbook.",
   "author": {
     "name": "Djidjelli Youcef"

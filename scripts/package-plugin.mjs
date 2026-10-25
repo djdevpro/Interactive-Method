@@ -14,7 +14,7 @@ await rm(staging, { recursive: true, force: true });
 await mkdir(staging, { recursive: true });
 const roots = [
   'plugin.json', '.codex-plugin', '.claude-plugin', 'assets', 'skills', 'references', 'templates', 'runtime',
-  'LICENSE', 'NOTICE.md', 'README.md', 'scripts/session.mjs',
+  'LICENSE', 'NOTICE.md', 'README.md', 'scripts/session.mjs', 'scripts/prepare-runtime.mjs',
 ];
 for (const entry of roots) {
   for (const source of await listFiles(path.join(projectRoot, entry))) {

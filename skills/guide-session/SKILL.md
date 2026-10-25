@@ -9,7 +9,9 @@ This is the plugin's single agent entry point. The human supplies a video, not a
 
 Write generated documents in the user's language. Use an explicit language preference when provided; otherwise infer it from the conversation, not the video's language. A French conversation produces French documents even when this skill and its templates are written in English. Translate headings, prose, tables, captions, diagram labels and reader navigation. Preserve identifiers, proper names and exact evidence quotations, labeling translations when useful. Record the language in the session and pass it to the renderer. Do not ask an initial language question when the conversation already makes it clear.
 
-Resolve the plugin root from this file. Save outputs in the user's selected workspace, outside the plugin project and installed cache.
+Resolve the installed plugin root two directories above this file. Before using its tools, run `node "<INSTALLED_PLUGIN>/scripts/prepare-runtime.mjs"`. It reuses a verified bundled runtime or prepares the source distribution in an external user cache. Use the returned `pluginRoot` as `<PLUGIN>` in all command examples. Perform this preparation yourself; do not ask the human to clone the repository, restore dependencies or compile tools. Report a concrete setup failure if the host lacks Node.js, npm, network access or the required permissions. Never claim setup succeeded when it failed.
+
+Save outputs in the user's selected workspace, outside the plugin project, prepared runtime and installed cache.
 
 ## Stage 1 runs immediately
 

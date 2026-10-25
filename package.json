@@ -1,6 +1,6 @@
 {
   "name": "interactive-method",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.22.0",
@@ -11,7 +11,7 @@
     "build": "node scripts/build-runtime.mjs",
     "setup:ffmpeg": "node node_modules/ffmpeg-static/install.js",
     "typecheck": "tsc --noEmit",
-    "test": "node --test scripts/test-session.mjs scripts/test-playbook.mjs && node scripts/test-video.mjs",
+    "test": "node --test scripts/test-prepare-runtime.mjs scripts/test-session.mjs scripts/test-playbook.mjs && node scripts/test-video.mjs",
     "validate": "node scripts/validate-plugin.mjs",
     "package": "node scripts/package-plugin.mjs",
     "smoke:package": "node scripts/smoke-package.mjs",

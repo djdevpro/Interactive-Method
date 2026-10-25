@@ -1,0 +1,13 @@
+{
+  "name": "interactive-method",
+  "description": "Turn videos into practical methods and interactive playbooks.",
+  "owner": {
+    "name": "Djidjelli Youcef"
+  },
+  "plugins": [
+    {
+      "name": "video-method-lab",
+      "source": "./"
+    }
+  ]
+}

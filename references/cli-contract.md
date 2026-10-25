@@ -1,6 +1,8 @@
 # Using the bundled video tools
 
-The video program is in `runtime/video.mjs`. Resolve `<PLUGIN>` two directories above `skills/<name>/SKILL.md`, regardless of the current working directory. Replace example placeholders with the selected absolute paths and quote them appropriately for the shell.
+Resolve the installed plugin root two directories above `skills/<name>/SKILL.md`. Run `node "<INSTALLED_PLUGIN>/scripts/prepare-runtime.mjs"` before using the tools and use its returned `pluginRoot` as `<PLUGIN>` below. The helper reuses a verified bundled runtime or installs the locked dependencies and builds the source distribution in an external user cache. It leaves the installed plugin unchanged. Preparation is the agent's responsibility, not a manual user procedure. Node.js >=22.19.0 and npm must be available; the first source preparation requires network access.
+
+The video program is in `runtime/video.mjs` beneath the prepared root. Replace example placeholders with the selected absolute paths and quote them appropriately for the shell.
 
 The CLI requires Node.js >=22.19.0. FFmpeg handles images and clips; `doctor` reports its availability. The current distribution may include its binary; another system needs a compatible FFmpeg on PATH or through `YT_MAX_FFMPEG`. The installed runtime's help command is the authority for supported options.
 
