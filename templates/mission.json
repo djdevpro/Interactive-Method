@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "video-method-lab.mission/v1",
+  "id": null,
+  "methodIds": [],
+  "questionIds": [],
+  "objective": null,
+  "status": "queued",
+  "dependsOn": [],
+  "inputs": {
+    "sessionRoot": null,
+    "pluginRoot": null,
+    "artifacts": [],
+    "intervals": [],
+    "evidenceIds": [],
+    "context": null
+  },
+  "constraints": {
+    "writeDirectory": null,
+    "researchAuthorized": false,
+    "localExecutionAuthorized": false,
+    "availableCapabilities": [],
+    "budget": null
+  },
+  "expectedArtifacts": [],
+  "completionCriteria": [],
+  "agentHandle": null,
+  "resultPath": null
+}

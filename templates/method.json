@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "video-method-lab.method/v1",
+  "id": null,
+  "title": null,
+  "sourceId": null,
+  "intervals": [],
+  "authorVersion": {
+    "objective": null,
+    "conditions": [],
+    "steps": []
+  },
+  "enrichedVersion": null,
+  "claims": [],
+  "visual": {
+    "status": "pending",
+    "inspectedIntervals": [],
+    "captures": []
+  },
+  "questions": [],
+  "dependencies": [],
+  "changes": [],
+  "limitations": [],
+  "audit": {
+    "status": "pending",
+    "checkedAt": null,
+    "evidenceReopened": [],
+    "remainingRequirements": []
+  }
+}

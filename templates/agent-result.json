@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "video-method-lab.agent-result/v1",
+  "missionId": null,
+  "methodIds": [],
+  "status": "needs-review",
+  "summary": null,
+  "artifacts": [],
+  "findings": [],
+  "sourceProposals": [],
+  "evidenceProposals": [],
+  "contradictions": [],
+  "mapChanges": [],
+  "revisitRequests": [],
+  "openQuestions": [],
+  "limitations": [],
+  "criteria": [],
+  "budgetUsed": null
+}

@@ -1,0 +1,41 @@
+{
+  "name": "interactive-method",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.22.0",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-runtime.mjs",
+    "setup:ffmpeg": "node node_modules/ffmpeg-static/install.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/test-session.mjs scripts/test-playbook.mjs && node scripts/test-video.mjs",
+    "validate": "node scripts/validate-plugin.mjs",
+    "package": "node scripts/package-plugin.mjs",
+    "smoke:package": "node scripts/smoke-package.mjs",
+    "video": "node runtime/video.mjs",
+    "playbook": "node runtime/playbook.mjs"
+  },
+  "dependencies": {
+    "marked": "18.1.1",
+    "undici": "8.12.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "esbuild": "0.28.2",
+    "fflate": "0.8.3",
+    "ffmpeg-static": "5.3.0",
+    "typescript": "5.9.3",
+    "yaml": "2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djdevpro/Interactive-Method.git"
+  },
+  "homepage": "https://github.com/djdevpro/Interactive-Method#readme",
+  "bugs": {
+    "url": "https://github.com/djdevpro/Interactive-Method/issues"
+  }
+}

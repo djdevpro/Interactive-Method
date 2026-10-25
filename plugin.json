@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "video-method-lab",
+  "version": "0.3.1",
+  "description": "Automatically summarize a video with evidence, screenshots and a neutral method diagram, then offer a deeper agent-assisted HTML playbook.",
+  "author": {
+    "name": "Djidjelli Youcef"
+  },
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "learning",
+    "research",
+    "playbook"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Interactive Method",
+        "shortDescription": "Video methods, made clear",
+        "longDescription": "Paste a video link to receive its summary, observed methods, key frames and a neutral diagram. Go deeper on request to get an HTML playbook with consolidated evidence. External research is optional.",
+        "developerName": "Djidjelli Youcef",
+        "category": "Education & Research",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": "Analyze this video and show its methods, key frames and a neutral diagram before offering to go deeper."
+      }
+    }
+  }
+}

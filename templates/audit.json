@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "video-method-lab.audit/v1",
+  "scope": null,
+  "checkedAt": null,
+  "status": "pending",
+  "checks": [],
+  "methodAudits": [],
+  "evidenceReopened": [],
+  "remainingRequirements": [],
+  "limitations": [],
+  "conclusion": null
+}

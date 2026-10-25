@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interactive Method"
+  short_description: "Video to method, then playbook"
+  default_prompt: "Analyze this video in my language with a method summary, screenshots and a neutral Mermaid map."
+policy:
+  allow_implicit_invocation: true

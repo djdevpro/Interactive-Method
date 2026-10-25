@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "video-method-lab.session/v1",
+  "id": null,
+  "language": "en",
+  "createdAt": null,
+  "updatedAt": null,
+  "objective": null,
+  "topic": null,
+  "deepDiveRequested": false,
+  "supplementarySourcesRequested": false,
+  "methodDetection": {
+    "status": "pending",
+    "reason": null,
+    "evidenceIds": []
+  },
+  "firstPass": {
+    "status": "pending",
+    "visualStatus": "pending",
+    "captures": [],
+    "limitations": []
+  },
+  "video": {
+    "id": null,
+    "url": null,
+    "title": null
+  },
+  "scope": {
+    "depth": "initial",
+    "mermaid": true,
+    "methods": [],
+    "decisionBasis": null
+  },
+  "status": "active",
+  "phase": "created",
+  "capabilities": {
+    "shell": null,
+    "vision": null,
+    "web": null,
+    "pdf": null,
+    "delegation": null
+  },
+  "budget": {
+    "maxParallel": 3,
+    "maxResearchMinutes": null,
+    "maxResearchSources": null,
+    "basis": "Adapt concurrency to the host agent environment. Apply other limits only when explicitly set."
+  },
+  "artifacts": {
+    "overview": "overview.md",
+    "diagram": "overview.mmd",
+    "videoMap": "video-map.json",
+    "domainMap": "domain-map.json",
+    "sources": "sources.json",
+    "researchPlan": "research-plan.md",
+    "audit": "audit.json",
+    "playbook": "playbook.md",
+    "playbookHtml": "playbook.html"
+  },
+  "methods": [],
+  "missions": [],
+  "openQuestions": [],
+  "limitations": [],
+  "nextAction": null,
+  "completion": {
+    "requestedDeliverables": [],
+    "verifiedDeliverables": [],
+    "remainingRequirements": [],
+    "completedAt": null
+  }
+}

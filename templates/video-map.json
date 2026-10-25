@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "video-method-lab.video-map/v1",
+  "videoId": null,
+  "sourceId": null,
+  "coverage": {
+    "durationSeconds": null,
+    "firstTranscriptSecond": null,
+    "lastTranscriptSecond": null,
+    "gaps": [],
+    "notes": []
+  },
+  "methods": [],
+  "unassignedIntervals": [],
+  "openQuestions": [],
+  "revisions": []
+}
